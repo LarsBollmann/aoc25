@@ -1,0 +1,17 @@
+[package]
+name = "aoc25"
+version = "0.1.0"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "3.0.0"
+dotenvy = "0.15.7"
+glam = "0.30.9"
+indicatif = "0.18.3"
+itertools = "0.14.0"
+nom = "8.0.0"
+rayon = "1.11.0"
+regex = "1.12.2"
+reqwest = { version = "0.12.24", features=["blocking"]}
