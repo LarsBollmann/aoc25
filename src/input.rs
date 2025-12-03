@@ -3,7 +3,7 @@ use reqwest::blocking::Client;
 use core::panic;
 use std::{env, fs};
 
-pub fn get_input(day: u8) -> String {
+pub fn get_input(day: usize) -> String {
     let input_file = format!("data/inputs/{}.txt", day);
     if let Ok(input) = fs::read_to_string(input_file) {
         return input;

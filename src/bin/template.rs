@@ -1,5 +1,7 @@
 use aoc25::input::get_input;
 
+const DAY: usize = 1; 
+
 fn parse_input(input: &str) {
     
 }
@@ -13,7 +15,8 @@ fn part_two() -> usize {
 }
 
 fn main() {
-    let input_string = get_input(1);
+    let input_string = get_input(DAY);
+    let input = parse_input(&input_string);
 }
 
 #[cfg(test)]
@@ -23,18 +26,18 @@ mod tests {
 
     #[test]
     fn test_part_one() {
-        let input_string = get_example(1);
-        let input = parse_input(&input);
-        let result = part_one(input);
-        assert_eq!(result, )
+        let input_string = get_example(DAY);
+        let input = parse_input(&input_string);
+        //let result = part_one(input);
+        //assert_eq!(result, )
     }
 
     #[test]
     fn test_part_two() {
-        let input_string = get_example(1);
-        let input = parse_input(&input);
-        let result = part_two(input);
-        assert_eq!(result, )
+        let input_string = get_example(DAY);
+        let input = parse_input(&input_string);
+        //let result = part_two(input);
+        //assert_eq!(result, )
 
     }
 }
