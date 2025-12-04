@@ -33,7 +33,7 @@ pub fn get_input(day: usize) -> String {
     input
 }
 
-pub fn get_example(day: u8) -> String {
+pub fn get_example(day: usize) -> String {
     let input_file = format!("data/examples/{}.txt", day);
     let input = {
         if let Ok(input) = fs::read_to_string(input_file) {
