@@ -3,7 +3,7 @@ use aoc25::input::get_input;
 const DAY: usize = 1; 
 type Input = ();
 
-fn parse_input(input: &str) -> Input {
+fn parse_input(input_str: &str) -> Input {
     
 }
 
